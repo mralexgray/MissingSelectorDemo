@@ -1,7 +1,3 @@
----
-layout: post
-title: Programming Note – Dealing with "unrecognized selector sent to instance"
----
 
 I recently shipped a version of [PicStroom](http://www.picstroom/com) with a dreaded "unrecognized selector" bug. It was caused by a sloppy mistake and not enough testing of the app on the iOS4 platform. In my case, not realizing that an `animated` argument on a method had just been introduced in iOS5 – its a rarely used section of the codebase, but of course users found it quickly.
 
