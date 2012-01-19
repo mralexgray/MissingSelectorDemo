@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D10EEBB14C82CE5003DD1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D10EEBA14C82CE5003DD1A3 /* UIKit.framework */; };
+		3D10EEBD14C82CE5003DD1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D10EEBC14C82CE5003DD1A3 /* Foundation.framework */; };
+		3D10EEBF14C82CE5003DD1A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D10EEBE14C82CE5003DD1A3 /* CoreGraphics.framework */; };
+		3D10EEC514C82CE5003DD1A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D10EEC314C82CE5003DD1A3 /* InfoPlist.strings */; };
+		3D10EEC714C82CE5003DD1A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D10EEC614C82CE5003DD1A3 /* main.m */; };
+		3D10EECB14C82CE5003DD1A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D10EECA14C82CE5003DD1A3 /* AppDelegate.m */; };
+		3D10EECE14C82CE5003DD1A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D10EECD14C82CE5003DD1A3 /* ViewController.m */; };
+		3D10EED114C82CE5003DD1A3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D10EECF14C82CE5003DD1A3 /* ViewController.xib */; };
+		3D10EED914C82D2B003DD1A3 /* CrashingGreetingsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D10EED814C82D2B003DD1A3 /* CrashingGreetingsObject.m */; };
+		3D6162AB14C830B000EC5125 /* NonCrashingGreetingsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6162AA14C830B000EC5125 /* NonCrashingGreetingsObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D10EEB614C82CE5003DD1A3 /* MissingSelectorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissingSelectorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D10EEBA14C82CE5003DD1A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D10EEBC14C82CE5003DD1A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D10EEBE14C82CE5003DD1A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D10EEC214C82CE5003DD1A3 /* MissingSelectorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MissingSelectorDemo-Info.plist"; sourceTree = "<group>"; };
+		3D10EEC414C82CE5003DD1A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D10EEC614C82CE5003DD1A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D10EEC814C82CE5003DD1A3 /* MissingSelectorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MissingSelectorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3D10EEC914C82CE5003DD1A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D10EECA14C82CE5003DD1A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D10EECC14C82CE5003DD1A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D10EECD14C82CE5003DD1A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D10EED014C82CE5003DD1A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3D10EED714C82D2B003DD1A3 /* CrashingGreetingsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashingGreetingsObject.h; sourceTree = "<group>"; };
+		3D10EED814C82D2B003DD1A3 /* CrashingGreetingsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashingGreetingsObject.m; sourceTree = "<group>"; };
+		3D6162A914C830B000EC5125 /* NonCrashingGreetingsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonCrashingGreetingsObject.h; sourceTree = "<group>"; };
+		3D6162AA14C830B000EC5125 /* NonCrashingGreetingsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonCrashingGreetingsObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D10EEB314C82CE5003DD1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D10EEBB14C82CE5003DD1A3 /* UIKit.framework in Frameworks */,
+				3D10EEBD14C82CE5003DD1A3 /* Foundation.framework in Frameworks */,
+				3D10EEBF14C82CE5003DD1A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D10EEAB14C82CE5003DD1A3 = {
+			isa = PBXGroup;
+			children = (
+				3D10EEC014C82CE5003DD1A3 /* MissingSelectorDemo */,
+				3D10EEC114C82CE5003DD1A3 /* Supporting Files */,
+				3D10EEB914C82CE5003DD1A3 /* Frameworks */,
+				3D10EEB714C82CE5003DD1A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D10EEB714C82CE5003DD1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D10EEB614C82CE5003DD1A3 /* MissingSelectorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D10EEB914C82CE5003DD1A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D10EEBA14C82CE5003DD1A3 /* UIKit.framework */,
+				3D10EEBC14C82CE5003DD1A3 /* Foundation.framework */,
+				3D10EEBE14C82CE5003DD1A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D10EEC014C82CE5003DD1A3 /* MissingSelectorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D10EEC914C82CE5003DD1A3 /* AppDelegate.h */,
+				3D10EECA14C82CE5003DD1A3 /* AppDelegate.m */,
+				3D10EECC14C82CE5003DD1A3 /* ViewController.h */,
+				3D10EECD14C82CE5003DD1A3 /* ViewController.m */,
+				3D10EECF14C82CE5003DD1A3 /* ViewController.xib */,
+				3D10EED714C82D2B003DD1A3 /* CrashingGreetingsObject.h */,
+				3D10EED814C82D2B003DD1A3 /* CrashingGreetingsObject.m */,
+				3D6162A914C830B000EC5125 /* NonCrashingGreetingsObject.h */,
+				3D6162AA14C830B000EC5125 /* NonCrashingGreetingsObject.m */,
+			);
+			path = MissingSelectorDemo;
+			sourceTree = "<group>";
+		};
+		3D10EEC114C82CE5003DD1A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D10EEC214C82CE5003DD1A3 /* MissingSelectorDemo-Info.plist */,
+				3D10EEC314C82CE5003DD1A3 /* InfoPlist.strings */,
+				3D10EEC614C82CE5003DD1A3 /* main.m */,
+				3D10EEC814C82CE5003DD1A3 /* MissingSelectorDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = MissingSelectorDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D10EEB514C82CE5003DD1A3 /* MissingSelectorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D10EED414C82CE5003DD1A3 /* Build configuration list for PBXNativeTarget "MissingSelectorDemo" */;
+			buildPhases = (
+				3D10EEB214C82CE5003DD1A3 /* Sources */,
+				3D10EEB314C82CE5003DD1A3 /* Frameworks */,
+				3D10EEB414C82CE5003DD1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MissingSelectorDemo;
+			productName = MissingSelectorDemo;
+			productReference = 3D10EEB614C82CE5003DD1A3 /* MissingSelectorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D10EEAD14C82CE5003DD1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3D10EEB014C82CE5003DD1A3 /* Build configuration list for PBXProject "MissingSelectorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D10EEAB14C82CE5003DD1A3;
+			productRefGroup = 3D10EEB714C82CE5003DD1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D10EEB514C82CE5003DD1A3 /* MissingSelectorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D10EEB414C82CE5003DD1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D10EEC514C82CE5003DD1A3 /* InfoPlist.strings in Resources */,
+				3D10EED114C82CE5003DD1A3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D10EEB214C82CE5003DD1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D10EEC714C82CE5003DD1A3 /* main.m in Sources */,
+				3D10EECB14C82CE5003DD1A3 /* AppDelegate.m in Sources */,
+				3D10EECE14C82CE5003DD1A3 /* ViewController.m in Sources */,
+				3D10EED914C82D2B003DD1A3 /* CrashingGreetingsObject.m in Sources */,
+				3D6162AB14C830B000EC5125 /* NonCrashingGreetingsObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D10EEC314C82CE5003DD1A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D10EEC414C82CE5003DD1A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D10EECF14C82CE5003DD1A3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D10EED014C82CE5003DD1A3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D10EED214C82CE5003DD1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D10EED314C82CE5003DD1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D10EED514C82CE5003DD1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MissingSelectorDemo/MissingSelectorDemo-Prefix.pch";
+				INFOPLIST_FILE = "MissingSelectorDemo/MissingSelectorDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D10EED614C82CE5003DD1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MissingSelectorDemo/MissingSelectorDemo-Prefix.pch";
+				INFOPLIST_FILE = "MissingSelectorDemo/MissingSelectorDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D10EEB014C82CE5003DD1A3 /* Build configuration list for PBXProject "MissingSelectorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D10EED214C82CE5003DD1A3 /* Debug */,
+				3D10EED314C82CE5003DD1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D10EED414C82CE5003DD1A3 /* Build configuration list for PBXNativeTarget "MissingSelectorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D10EED514C82CE5003DD1A3 /* Debug */,
+				3D10EED614C82CE5003DD1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D10EEAD14C82CE5003DD1A3 /* Project object */;
+}
